@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded());
 app.use(cors());
 
-mongoose.connect('mongodb+srv://shivang214:qwertyuiop@cluster0.a741bb7.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongoose connect  krne k liye id password');
 
 const userSchema = new mongoose.Schema({
     name: String,
